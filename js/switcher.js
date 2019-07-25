@@ -5,7 +5,6 @@ jQuery(document).ready(function($) {
     e.preventDefault();
     var href = $(this).attr('href');
     if (href.indexOf('#') == 0) {
-      //console.log(href.substring(1,href.length));
       ac_setss(href.substring(1,href.length));  
     }
     e.stopPropagation();
