@@ -40,7 +40,9 @@
         foreach($to_enqueue as $style) {
             $key = (empty( $style['directory'] ) ? $style['id'] : $style['directory'] . '-' . $style['id'] );
             wp_enqueue_style( $key, $style['url'] );
+            
             $wp_styles->add_data( $key , 'title', $style['title'] );
+            $wp_styles->add_data( $key , 'alt', 'yes' );
         }
 
         wp_enqueue_script( 'switcherjs', plugin_dir_url( __FILE__ ) . 'js/switcher.js', array( 'jquery' ) );
