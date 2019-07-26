@@ -7,8 +7,6 @@
  * Author:      SatelliteWP
  * Author URI:  https://satellitewp.com/en
  * Text Domain: alternate-css
- * Domain Path:
- * Network:
  * License:     GPL-3.0+
  */
 
