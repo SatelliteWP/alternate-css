@@ -7,6 +7,8 @@
  * Author:      SatelliteWP
  * Author URI:  https://satellitewp.com/en
  * Text Domain: alternate-css
+ * Requires PHP: 7.0
+ * Requires at least: 4.9
  * License:     GPL-3.0+
  */
 
